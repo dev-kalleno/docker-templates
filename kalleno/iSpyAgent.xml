@@ -2,7 +2,7 @@
 <Containers>
   <Date>2020-11-03</Date>
   <Beta>False</Beta>
-  <Category>MediaApp:Video MediaApp:Music MediaApp:Photos MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
+  <Category></Category>
   <Name>iSpyAgent</Name>
   <Project>https://www.ispyconnect.com/</Project>
   <Changes>
