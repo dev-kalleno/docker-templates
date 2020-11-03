@@ -30,6 +30,13 @@
         <Publish/>
     </Networking>
     <Environment/>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/iSpyAgent</HostDir>
+            <ContainerDir>/config</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
     <WebUI>http://[IP]:[PORT:8090]</WebUI>
     <Banner></Banner>
     <Icon>https://raw.githubusercontent.com/ispysoftware/iSpy/master/ispy.ico</Icon>
