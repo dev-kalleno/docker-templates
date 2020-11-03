@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container version="4">
+<Container version="5">
     <TemplateURL>https://github.com/Kalleno/docker-templates/blob/master/kalleno/iSpyAgent.xml</TemplateURL>
     <Date>2020-11-03</Date>
     <Beta>False</Beta>
@@ -36,17 +36,17 @@
     <Config
             Type="Path"
             Name="Config Directory"
-            Target="/config"
-            Default="/agent/Media/XML/"
+            Target="/agent/Media/XML/"
+            Default="/mnt/user/appdata/iSpyAgent"
             Mode="rw"
             Description="Config Files"
-            Required="true">/agent/Media/XML/
+            Required="true">/mnt/user/appdata/iSpyAgent
     </Config>
     <Config
             Type="Path"
             Name="Media Directory"
-            Target="/config"
-            Default="/agent/Media/WebServerRoot/Media"
+            Target="/agent/Media/WebServerRoot/Media"
+            Default="/mnt/user/appdata/iSpyAgent"
             Mode="rw"
             Description="Media Files"
             Required="true">/agent/Media/WebServerRoot/Media
