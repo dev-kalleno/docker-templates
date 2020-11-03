@@ -7,8 +7,7 @@
             Default="/mnt/user/appdata/iSpyAgent"
             Mode="rw"
             Description="Config Files"
-            Required="true">/mnt/user/appdata/iSpyAgent
-    </Config>
+            Required="true">/mnt/user/appdata/iSpyAgent</Config>
     <Config
             Type="Path"
             Name="Media Directory"
@@ -16,8 +15,7 @@
             Default="/mnt/user/appdata/iSpyAgent"
             Mode="rw"
             Description="Media Files"
-            Required="true">/mnt/user/appdata/iSpyAgent
-    </Config>
+            Required="true">/mnt/user/appdata/iSpyAgent</Config>
     <TemplateURL>https://github.com/Kalleno/docker-templates/blob/master/kalleno/iSpyAgent.xml</TemplateURL>
     <Date>2020-11-03</Date>
     <Beta>False</Beta>
