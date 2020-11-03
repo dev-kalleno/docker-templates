@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container version="5">
+<Container version="1">
+    <Config
+            Type="Path"
+            Name="Config Directory"
+            Target="/agent/Media/XML/"
+            Default="/mnt/user/appdata/iSpyAgent"
+            Mode="rw"
+            Description="Config Files"
+            Required="true">/mnt/user/appdata/iSpyAgent
+    </Config>
+    <Config
+            Type="Path"
+            Name="Media Directory"
+            Target="/agent/Media/WebServerRoot/Media"
+            Default="/mnt/user/appdata/iSpyAgent"
+            Mode="rw"
+            Description="Media Files"
+            Required="true">/mnt/user/appdata/iSpyAgent
+    </Config>
     <TemplateURL>https://github.com/Kalleno/docker-templates/blob/master/kalleno/iSpyAgent.xml</TemplateURL>
     <Date>2020-11-03</Date>
     <Beta>False</Beta>
@@ -33,24 +51,6 @@
         <Publish/>
     </Networking>
     <Environment/>
-    <Config
-            Type="Path"
-            Name="Config Directory"
-            Target="/agent/Media/XML/"
-            Default="/mnt/user/appdata/iSpyAgent"
-            Mode="rw"
-            Description="Config Files"
-            Required="true">/mnt/user/appdata/iSpyAgent
-    </Config>
-    <Config
-            Type="Path"
-            Name="Media Directory"
-            Target="/agent/Media/WebServerRoot/Media"
-            Default="/mnt/user/appdata/iSpyAgent"
-            Mode="rw"
-            Description="Media Files"
-            Required="true">/agent/Media/WebServerRoot/Media
-    </Config>
     <WebUI>http://[IP]:[PORT:8090]</WebUI>
     <Banner></Banner>
     <Icon>https://raw.githubusercontent.com/ispysoftware/iSpy/master/ispy.ico</Icon>
