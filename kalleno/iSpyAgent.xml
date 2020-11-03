@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
+    <TemplateURL>https://github.com/Kalleno/docker-templates/blob/master/kalleno/iSpyAgent.xml</TemplateURL>
     <Date>2020-11-03</Date>
     <Beta>False</Beta>
     <Category>Tools:Utilities, Security</Category>
