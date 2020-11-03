@@ -33,6 +33,24 @@
         <Publish/>
     </Networking>
     <Environment/>
+    <Config
+            Type="Path"
+            Name="Config Directory"
+            Target="/config"
+            Default="/agent/Media/XML/"
+            Mode="rw"
+            Description="Config Files"
+            Required="true">/agent/Media/XML/
+    </Config>
+    <Config
+            Type="Path"
+            Name="Media Directory"
+            Target="/config"
+            Default="/agent/Media/WebServerRoot/Media"
+            Mode="rw"
+            Description="Media Files"
+            Required="true">/agent/Media/WebServerRoot/Media
+    </Config>
     <Data>
         <Volume>
             <HostDir>/mnt/user/appdata/iSpyAgent</HostDir>
