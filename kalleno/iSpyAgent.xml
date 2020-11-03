@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2020-11-03</Date>
-  <Beta>False</Beta>
-  <Category>Tools:Utilities, Security</Category>
-  <Name>iSpyAgent</Name>
-  <Project>https://www.ispyconnect.com/</Project>
-  <Changes>
-[font size=3]2020.11.03[/font]
-- Initial Release
-  </Changes>
-  <Overview>
-    A new video surveillance solution for the Internet Of Things.
-  </Overview>
-  <Description>
-    Introducing Agent DVR
-    A new video surveillance solution for the Internet Of Things.
-    Available on Windows, Mac and Linux.
-    Agent DVR is the only DVR solution that doesn’t need port forwarding.
-    That means no fiddly router setup or network security compromise for remote access.
-  </Description>
-  <Registry>https://registry.hub.docker.com/r/kalleno/ispyagent/</Registry>
-  <GitHub>https://github.com/kalleno/ispyagentdvr-docker</GitHub>
-  <Repository>kalleno/ispyagent</Repository>
-  <BindTime>true</BindTime>
-  <Privileged>true</Privileged>
-  <Networking>
-    <Mode>host</Mode>
-    <Publish/>
-  </Networking>
-  <Environment/>
-  <WebUI>http://[IP]:[PORT:8090]</WebUI>
-  <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/ispysoftware/iSpy/master/ispy.ico</Icon>
+    <Date>2020-11-03</Date>
+    <Beta>False</Beta>
+    <Category>Tools:Utilities, Security</Category>
+    <Name>iSpyAgent</Name>
+    <Project>https://www.ispyconnect.com/</Project>
+    <Changes>
+        [font size=3]2020.11.03[/font]
+        - Initial Release
+    </Changes>
+    <Overview>
+        A new video surveillance solution for the Internet Of Things.
+    </Overview>
+    <Description>
+        Introducing Agent DVR
+        A new video surveillance solution for the Internet Of Things.
+        Available on Windows, Mac and Linux.
+        Agent DVR is the only DVR solution that doesn’t need port forwarding.
+        That means no fiddly router setup or network security compromise for remote access.
+    </Description>
+    <Registry>https://registry.hub.docker.com/r/kalleno/ispyagent/</Registry>
+    <GitHub>https://github.com/kalleno/ispyagentdvr-docker</GitHub>
+    <Repository>kalleno/ispyagent</Repository>
+    <BindTime>true</BindTime>
+    <Privileged>true</Privileged>
+    <Networking>
+        <Mode>host</Mode>
+        <Publish/>
+    </Networking>
+    <Environment/>
+    <WebUI>http://[IP]:[PORT:8090]</WebUI>
+    <Banner></Banner>
+    <Icon>https://raw.githubusercontent.com/ispysoftware/iSpy/master/ispy.ico</Icon>
 </Containers>
