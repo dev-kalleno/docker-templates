@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container>
+<Container version="2">
     <TemplateURL>https://github.com/Kalleno/docker-templates/blob/master/kalleno/iSpyAgent.xml</TemplateURL>
     <Date>2020-11-03</Date>
     <Beta>False</Beta>
@@ -7,6 +7,9 @@
     <Name>iSpyAgent</Name>
     <Project>https://www.ispyconnect.com/</Project>
     <Changes>
+        [font size=3]2020.11.03[/font]
+        - Added Config Path
+
         [font size=3]2020.11.03[/font]
         - Initial Release
     </Changes>
