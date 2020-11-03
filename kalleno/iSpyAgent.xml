@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Containers>
+<Container>
     <TemplateURL>https://github.com/Kalleno/docker-templates/blob/master/kalleno/iSpyAgent.xml</TemplateURL>
     <Date>2020-11-03</Date>
     <Beta>False</Beta>
@@ -24,7 +24,7 @@
     <GitHub>https://github.com/kalleno/ispyagentdvr-docker</GitHub>
     <Repository>kalleno/ispyagent</Repository>
     <BindTime>true</BindTime>
-    <Privileged>true</Privileged>
+    <Privileged>false</Privileged>
     <Networking>
         <Mode>host</Mode>
         <Publish/>
@@ -33,4 +33,4 @@
     <WebUI>http://[IP]:[PORT:8090]</WebUI>
     <Banner></Banner>
     <Icon>https://raw.githubusercontent.com/ispysoftware/iSpy/master/ispy.ico</Icon>
-</Containers>
+</Container>
