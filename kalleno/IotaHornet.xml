@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="1">
-<Config
-            Type="Path"
-            Name="IOTA Hornet"
-            Target="/app/"
-            Default="/mnt/user/appdata/IotaHornet"
-            Mode="rw"
-            Description="Hornet"
-            Required="true">/mnt/user/appdata/IotaHornet</Config>
+
     <TemplateURL>https://github.com/Kalleno/docker-templates/blob/master/kalleno/IotaHornet.xml</TemplateURL>
     <Date>2021-02-10</Date>
     <Beta>False</Beta>
