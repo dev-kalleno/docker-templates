@@ -18,7 +18,7 @@
     </Description>
     <Registry>https://registry.hub.docker.com/r/iotaledger/hornet</Registry>
     <GitHub>https://github.com/gohornet/hornet</GitHub>
-    <Repository>gohornet/hornet</Repository>
+    <Repository>iotaledger/hornet</Repository>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
     <Networking>
