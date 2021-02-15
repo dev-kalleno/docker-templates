@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="1">
-
     <TemplateURL>https://github.com/Kalleno/docker-templates/blob/master/kalleno/TorBrowser.xml</TemplateURL>
     <Date>2021-02-15</Date>
     <Beta>False</Beta>
     <Category>Tools:Network:Security</Category>
-    <Name>IOTA Hornet</Name>
-    <Project>https://www.iota.org/</Project>
+    <Name>Torbrowser</Name>
+    <Project>https://www.torproject.org/</Project>
     <Changes>
         [font size=3]2021.02.15[/font]
         - Initial Release
