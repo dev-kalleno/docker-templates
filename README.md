@@ -3,3 +3,4 @@
 
 Currently available:
 - iSpy Agent
+- iota hornet node
